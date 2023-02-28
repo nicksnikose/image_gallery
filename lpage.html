@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Page 2.0</title>
+    <script src="https://kit.fontawesome.com/1e59c30557.js" crossorigin="anonymous"></script>
+
+    <style>
+        h1{
+            color: chartreuse;
+
+        }
+        .n1{
+            /* border-bottom:1px solid tomato; */
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            border-bottom: none;
+            /* padding:px; */
+            
+        }
+        .but{
+            margin-top:20px;
+            padding: 5px;
+            width: 20%;
+            border-radius:30%;
+            background-color: tomato;
+            color:white;
+        }
+        
+        p{
+            text-align: center;
+            margin-bottom:-18px;
+            color:rgb(97, 91, 91);           
+        }
+        .fa-facebook{
+            color:blue;
+            padding-right:20px;
+        }
+        .fa-google{
+            color:crimson;
+            padding-right:20px;
+        }
+        .fa-whatsapp{
+            color: green;
+        }
+        .back{
+            /* border:5px solid tomato;
+            border-radius: 20px;
+            color:pink;
+            background-color: cornsilk;
+            width:400px;
+            margin-left: 45%; */
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            border: 5px solid ;
+            width: 450px;
+        }
+        .check{
+            margin-top:30px;
+            margin-left: -60px;
+            font-family: 10px;
+           
+            
+        }
+        .fog{
+            border:10px;
+        }
+        
+        
+        /* .fa-solid{
+            margin-left: -10px;
+        } */
+        .first{
+            border-bottom: 2px solid;
+            margin:20px 0;
+            margin-left: 140px;
+            margin-right:120px;
+        }
+        
+        
+    </style>
+</head>
+<body style="text-align: center;">
+    <div class="back">
+        <h1>Welcome back</h1>
+        <h5>please enter your details.</h5>
+        <div class="name">
+                <div class="first"><i class="fa-solid fa-user"></i><input type="text" class="n1" placeholder="First Name"></div>
+                <!-- <input type="text" class="n1" placeholder="Last Name"><br> -->
+                <div class="first"><i class="fa-solid fa-envelope"></i><input type="email" class="n1"  placeholder="Email"></div>
+                <div class="first"><i class="fa-solid fa-lock"></i><input type="password" class="n1" placeholder="Password"></div>
+        </div>
+            <div class="check">
+                <label type="checkbox"><input type="checkbox">Remember for 30 days</label>    
+            </div>
+            <div class="forgot">
+                <p class="fog">forgot password</p>
+            </div>
+            <input type="button" class="but" value="Sign in">
+        <p>Or sign with</p><hr>
+        <span class="social">
+            <i class="fa-brands fa-facebook" style="font-size: 20px;"></i>
+            <i class="fa-brands fa-google" style="font-size: 18px;"></i>
+            <i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i>
+        </span>
+    </div>
+    
+</body>
+</html>

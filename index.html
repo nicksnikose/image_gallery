@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <script src="https://kit.fontawesome.com/1e59c30557.js" crossorigin="anonymous"></script>
+    <style>
+        h1{
+            text-align:center;
+            border:5px solid red;
+            border-radius:50px;
+            border-left:50px;
+            border-right:50px;
+            margin-left:15%;
+            margin-right:15%;
+        }
+        .name{
+            text-align:left;
+            border-radius:50px;
+            padding:5px; 
+            padding-left:30px;
+            margin:20px;
+            font-size:12px;
+        
+        }
+        div{
+            text-align:center;
+            padding:50px;
+            font-family:14px;
+            
+            
+        }
+        input[type=button]{
+            margin:10px;
+            padding:5px;
+            border-radius: 40px;
+            border-left:90px;
+            border-right:10px;
+            background-color:blue;
+            width: 35%;
+            color:aliceblue;
+        
+        }
+        /* input[type=text]:hover{
+            background-color:aqua;
+        } */
+        .name:hover{
+            background-color:rgb(117, 187, 221);
+            
+        }
+        /* .regi:hover{
+            background-color:aqua;
+        } */
+        .mongoos{
+            width:450px;
+
+            height:358px;
+            font-size: 10px;
+            margin-top:-50px;
+            
+            /* margin-left:20%; */
+            /* border-radius:25px;  */
+            /* margin-top:90px; */
+            /* margin-bottom:25px; */
+            /* border: 5px solid black; */
+
+
+            
+        }
+        .new{
+            /* background-position: 40%; */
+            background-image:url('original.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            /* margin-left:40%;
+            margin-bottom :65px;
+            border-radius: 25px; */
+/*  */
+            
+        }
+        .back{
+            /* border: 5px solid red; */
+         
+            display:flex;
+            text-align:center;
+            margin: auto;
+            margin-top: 100px;
+            width: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            box-shadow: 0px 0px 10px 2px black;
+            border-radius: 10px;
+        }
+        .icons{
+            position: relative;
+        }
+        i{
+            position: absolute;
+            margin-left:30px;
+            margin-top:26px;
+            
+
+        }
+        .figure{
+            /* border-radius:25px;  */
+            width:600px;
+            /* margin-left: 10px; */
+            height:420px;
+        }
+        .fa-facebook{
+            
+           
+            width:10px;
+            margin-left:-60px;
+            text-align: center;
+            
+        }
+        .fa-google{
+            width:10px;
+            margin-left:-20px;
+            text-align: center;
+        }
+        .fa-whatsaap{
+            width:10px;
+            margin-left:-80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="new">
+ 
+        <div class="back">
+            <img class="figure" src="original.jpg">
+            <div class="mongoos">
+                <h1>Login Form</h1>
+                <div class="icons">
+                    <i class="fa-solid fa-user" style="font-size: 15px;"></i><input  type="text" class="name" placeholder="Enter Your Name:"><br>
+                    <i class="fa-solid fa-lock"style="font-size: 15px"></i><input type="password" class="name" placeholder="Enter Your Password:"><br>
+                    <input type="button" class="regi" value="Register">
+                </div>
+                    <span class="social">
+                        <i class="fa-brands fa-facebook" style="font-size: 20px;"></i>
+                        <i class="fa-brands fa-google" style="font-size: 20px;"></i>
+                        <i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i>
+                    </span>
+            </div>
+
+        </div>
+  
+</body>
+</html>
